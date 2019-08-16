@@ -32,7 +32,7 @@ const TodoList: React.SFC<Props> = ({
 
   return (
     <div>
-      <h1>오늘 뭐하지 ㅡㅅ ㅡ, ? </h1>
+      <h1>오늘 뭐하지?</h1>
       <form onSubmit={(e: React.FormEvent<HTMLElement>) => {
           e.preventDefault();
           onCreate();
